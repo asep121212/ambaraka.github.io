@@ -1,8 +1,4 @@
-@font-face {
-     font-family: myFirstFont;
-    src: url(sansation_bold.woff);
-    font-weight: bold;
-}
+
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -15,11 +11,9 @@ body{
      
 }
 .main {
-        border: 10px solid black;
+        /*! border: 10px solid black; */
     padding: 35px;
-    background: url(img_flwr.gif);
-    background-repeat: no-repeat;
-    background-origin: content-box;
+  
 }
 .content img{
     width: 50%;
@@ -32,13 +26,15 @@ body{
     color: rgb(172, 73, 34);
     padding: 5px 0;
     margin: 10px 0 10px 0;
-  font-family: myFirstFont;
-    margin-left: 250px;
+
+    /*! margin-left: 250px; */
+    text-align: center;
 }
 
 .content h3 {
     padding: 15px 0 5px 0;
     color: rgb(172, 73, 34);
+    text-align: center;
 }
 
 .content table {
