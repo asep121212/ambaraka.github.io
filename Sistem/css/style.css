@@ -614,8 +614,7 @@ font-weight: 800;
 .cabang .row .sains img{
  position: relative;
 border-radius: 4px;
-overflow: hidden;
- margin-bottom: 1rem;
+
 }
 .cabang .row .sains{
   margin-right: 100px;
@@ -626,9 +625,7 @@ overflow: hidden;
   border-radius: 10px;
   text-align: center;
   box-shadow: -3px -3px 7px #0000002f, 3px 3px 7px rgba(94, 104, 121, 0.288); border-top: 5px solid #e847ae;
-  border-bottom: 1px solid #e847ae;
-  border-left: 1px solid #e847ae;
-  border-right: 1px solid #e847ae;
+
 
 }
 /*akhir cabang*/
