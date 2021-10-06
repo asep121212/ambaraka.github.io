@@ -77,16 +77,34 @@ aside ol li a {
 
 aside ol li a:hover {
     color: rgb(172, 73, 34);
-} .my-img a {
-        display: inline-block;
-        margin: 10px;
-        border: 2px solid #CCC;
+
+} 
+.my-img a {
+     max-height: 200%;
+  box-shadow: 2px 2px 7px rgba(0,0,0,.5);
+  width: 600px;
+  height: 400px;
       }
       .my-img a:hover {
         border: 2px solid #45AFFF;
       }    
       .modal-lg {
         width: 86%;
+      }
+      .modal .close{
+
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -20px;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border: 1px solid white;
+  line-height: 14px;
+  padding: 5px;
+  opacity: 0;
+}
       }
       .modal-body {
         overflow: auto;
